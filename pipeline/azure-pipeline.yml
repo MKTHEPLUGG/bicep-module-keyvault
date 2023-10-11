@@ -15,8 +15,8 @@ pool:
 jobs:
 - template: bicep_registry/publish.yml@pipelineTemplates
   parameters:
-    azureSubscription: 'Eruza-INT'
-    registryName: 'eruza'
+    azureSubscription: 'CICD-MI'
+    registryName: 'eruza123'
     moduleName: 'keyvault'
 
 
