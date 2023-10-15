@@ -6,6 +6,7 @@ param location string
 @allowed([
   'acceptance'
   'production'
+  'integration'
 ])
 param environment string
 param kvSkuName string
@@ -14,6 +15,7 @@ param purpose string
 var envShort = {
   production: 'prd'
   acceptance: 'acc'
+  integration: 'int'
 }
 var locShort = {
   westeurope: 'we'
